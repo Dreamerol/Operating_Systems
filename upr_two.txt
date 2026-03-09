@@ -1,0 +1,94 @@
+
+s0600443@astero:~$ find ~ /usr -size 0c -printf 'hello\n'
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+s0600443@astero:~$ find ~ -type f -size 0c -exec echo hello ';'
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+s0600443@astero:~$ find ~ -type d -exec chmod u+x '{}' ';'
+s0600443@astero:~$ find . -size 0c -exec echo rm  '{}' ';'
+rm ./soleti/koko
+rm ./soleti/podpravki
+rm ./soleti/kashkaval
+rm ./one/file1
+rm ./one/two
+rm ./linkfirst
+rm ./two/filiq
+rm ./two/filetwo
+rm ./boo/joo
+rm ./boo/ko
+rm ./foo
+rm ./banica/filiq
+rm ./f
+s0600443@astero:~$ umask
+0022
+s0600443@astero:~$ ls ~
+banica  boo  f  foo  linkfirst  linkone  linktwo  one  soleti  two
+s0600443@astero:~$ umask 0000
+s0600443@astero:~$ touch newi
+s0600443@astero:~$ ls -l newi
+-rw-rw-rw- 1 s0600443 students 0 Mar  2 19:54 newi
+s0600443@astero:~$ umask 0513
+s0600443@astero:~$ touch newo
+s0600443@astero:~$ ls -l newo
+--w-rw-r-- 1 s0600443 students 0 Mar  2 19:56 newo
+s0600443@astero:~$ find ~  -mindepth 1 -type d -exec chmod go-w '{}' ';'
