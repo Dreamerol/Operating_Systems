@@ -1,0 +1,48 @@
+zadachi - upr
+find /tmp -readable
+find /tmp -perm /u=r
+find /tmp -readable -printf '%p %m/n'
+find /tmp -readable -exec stat -c '%n %a' '{}' ';'
+
+we can write in a file and redirect
+s0600443@astero:~$ echo hello > output.txt
+s0600443@astero:~$ cat output.txt
+hello
+s0600443@astero:~$ echo hi > output.txt
+s0600443@astero:~$ cat output.txt
+hi
+s0600443@astero:~$ echo hello >> output.txt
+s0600443@astero:~$ cat output.txt
+hi
+hello
+
+
+cut -d : -f 5,6 /etc/passwd
+cat /etc/passwd | cut-d : -f 5,6
+
+print first 5 lines
+cat /etc/passwd | head -n 5
+
+cat /etc/passwd | head -n -5 -> gets all the lines without the final four lines
+cat /etc/passwd | tail -c 56 ->the last 56 characters of the file
+
+-c -> characters
+-n -> lines
+
+cat /etc/passwd | head -n 56 | tail -n 1
+-gets the first 56 lines and then gets the last line from the tail
+
+cat /etc/passwd | tail -n +56 | head -n 1
+cat /etc/passwd | head -n 56 | tail -n 1 | tail -c 5
+cat /etc/passwd | head -n 56 | tail -n 1 | cut -c 5,6
+
+zad izvedete ot vtori do shesti simvol infoto vyv fajla
+cat /etc/passwd | head -c 6 | tail -c +5
+
+translates
+s0600443@astero:~$ echo hello > p.txt
+s0600443@astero:~$ cat p.txt
+hello
+s0600443@astero:~$ cat p.txt | tr 'ol' '65'
+he556
+
