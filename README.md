@@ -1,5 +1,5 @@
 
-<h2 align="center">🐧 𝗟𝗜𝗡𝗨𝗫 𝗣𝗥𝗢 𝗧𝗢𝗢𝗟𝗞𝗜𝗧</h2>
+<h1 align="center">🐧 𝗟𝗜𝗡𝗨𝗫 𝗣𝗥𝗢 𝗧𝗢𝗢𝗟𝗞𝗜𝗧</h1>
 
 <h2 align="center"><strong>Advanced Linux utilities for automation, shell scripting, system administration, and command-line workflows</strong></h2>
 
