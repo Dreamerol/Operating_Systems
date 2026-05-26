@@ -1,7 +1,7 @@
 
 <h1 align="center">🐧 𝗟𝗜𝗡𝗨𝗫 𝗣𝗥𝗢 𝗧𝗢𝗢𝗟𝗞𝗜𝗧</h1>
 
-<h2 align="center"><strong>A professional Linux course toolkit for mastering OS commands, scripting, automation, and system management</strong></h2>
+<h2 align="center"><strong>Linux toolkit for OS commands, scripting, automation, and system management</strong></h2>
 
 
 <img src="https://github.com/Dreamerol/Dreamerol/blob/9c27f8051d0cdf5ce4167beec8fc860919786878/LINUX22.PNG" alt="Linux Screenshot" width="100%">
