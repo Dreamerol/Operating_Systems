@@ -4,7 +4,7 @@
 <h1 align="center"><strong>Advanced Linux utilities for automation, shell scripting, system administration and command-line workflows</strong></h1>
 
 
-<img src="https://raw.githubusercontent.com/Dreamerol/Dreamerol/9c27f8051d0cdf5ce4167beec8fc860919786878/LINUX22.PNG" alt="Linux Screenshot" width="100%">
+<img src="https://raw.githubusercontent.com/Dreamerol/Dreamerol/main/LINUX22.PNG" alt="Linux Screenshot" width="100%">
 
 
 <p align="center">
